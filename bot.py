@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from secrets.secret import TOKEN
+from secrets import TOKEN
 from telegram.ext import Updater, CommandHandler, CallbackContext
 from telegram import Update
 import logging
